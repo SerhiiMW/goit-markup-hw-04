@@ -368,8 +368,9 @@ address .list {
   background-color: var(--iris);
   transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
-.social-link-icon:hover {
-  background-color: var(--green);
+.section-team .social-link-icon:hover
+.section-team .social-link-icon:focus {
+  background-color: var(--ocean);
 }
 .team-social-icon {
   fill: var(--cloud);
@@ -431,8 +432,8 @@ address .list {
 .socialfooter-link-list .social-link-top {
   transition: 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
-.socialfooter-link-list .social-link-top:hover,
-.socialfooter-link-list .social-link-top:focus {
+.footer-info .social-link-icon:hover,
+.footer-info .social-link-icon:focus {
   background-color: var(--green);
 }
 .customer-icon {
@@ -539,13 +540,16 @@ address .list {
   border: 1px solid #e7e9fc;
   border-top: none;
 }
-
+.portfolio-list .page-link {
+  display: block;
+}
 .list-make-img {
   background: var(--white, #fff);
   width: calc((100% - 48px) / 3);
   transition: box-shadow 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
-.list-make-img:hover {
+.list-make-img .page-link:hover
+.list-make-img .page-link:focus {
   box-shadow: 0px 2px 1px 0px rgba(46, 47, 66, 0.08),
     0px 1px 1px 0px rgba(46, 47, 66, 0.16),
     0px 1px 6px 0px rgba(46, 47, 66, 0.08);
