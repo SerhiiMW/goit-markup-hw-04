@@ -417,12 +417,19 @@ address .list {
 .customer-icon {
   fill: currentColor;
 }
-.customer-icon:hover,
+/* .customer-icon:hover,
 .customer-icon:focus {
   fill: var(--ocean);
+} */
+.customers-icon-link:hover .customer-icon,
+.customers-icon-link:focus .customer-icon {
+  fill: var(--ocean);
+  color: var(--ocean);
+  border-color: var(--ocean);
 }
 .customers-icon-link:hover,
 .customers-icon-link:focus {
+  fill: var(--ocean);
   color: var(--ocean);
   border-color: var(--ocean);
 }
@@ -552,8 +559,10 @@ address .list {
     0px 1px 1px 0px rgba(46, 47, 66, 0.16),
     0px 1px 6px 0px rgba(46, 47, 66, 0.08);
 }
-.list-make-img:hover .make-cover-text,
 .list-make-img:focus .make-cover-text {
+  transform: translateY(0%);
+}
+.list-make-img:hover .make-cover-text {
   transform: translateY(0%);
 }
 .title-make-portfolio {
