@@ -60,7 +60,6 @@ body {
   font-family: "Roboto", sans-serif;
   color: var(--basecolor);
   background-color: var(--white);
-  width: 1440px;
 }
 ul {
   list-style-type: none;
